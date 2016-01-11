@@ -61,7 +61,7 @@
                 "topLevel": true,
                 "cordovaVersion": "?",
                 "permissions": {},
-                "description": "Quickly and easily build the most secure apps on the market today, in minutes with the Appmobi Secure Mobile Platform.  This platform provides your development team with configurable, high-performance security options for every app built, including app and device level shared keys for encryption and identity verification as well as integration with most 3rd party authentication systems such as OAUTH, LDAP, and more.  You can register for FREE for the Appmobi public cloud at https://cloud.appmobi.com/signup",
+                "description": "Quickly and easily build the most secure apps on the market today, in minutes with the Appmobi Secure Mobile Platform.  This platform provides your development team with configurable, high-performance security options for every app built, including app and device level shared keys for encryption and identity verification as well as integration with most 3rd party authentication systems such as OAUTH, LDAP, and more.  You can register for FREE for the Appmobi public cloud at https://cloud.appmobi.com/",
                 "data": {},
                 "dependedBy": [],
                 "custom": "true"
