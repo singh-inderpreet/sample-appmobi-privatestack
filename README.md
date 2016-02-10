@@ -85,4 +85,5 @@ Note: The above parameters should be correct as provided from private stack App.
 ----------
 Platforms : 
 - Android
-- iOS (For Intel XDK the plugin will not work for iOS as it has dependency on cordova-ios v4.0.0 which has not been released yet.)
+- iOS (For Intel XDK, we have updated "intelxdk.config.additions" file which creates iOS build with CLI 5.1.1-dev version and cordova-ios v4.0.0 which enables this plugin to be utilised
+supporting Appmobi Secured Plugin for iOS build using XDK)
