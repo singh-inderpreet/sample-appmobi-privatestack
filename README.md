@@ -85,5 +85,5 @@ Note: The above parameters should be correct as provided from private stack App.
 ----------
 Platforms : 
 - Android
-- iOS (For Intel XDK, we have updated "intelxdk.config.additions" file which creates iOS build with CLI 5.1.1-dev version and cordova-ios v4.0.0 which enables this plugin to be utilised
-supporting Appmobi Secured Plugin for iOS build using XDK)
+- iOS (For Intel XDK, we have updated "intelxdk.config.additions" file which creates iOS build with CLI 5.4.1 version and cordova-ios v4.0.1 which enables this plugin to be utilised
+supporting Appmobi Secured Plugin for iOS build using XDK - https://appmobi.freshdesk.com/support/discussions/topics/9000007638)
