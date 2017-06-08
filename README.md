@@ -6,7 +6,9 @@ Quickly and easily build the most secure apps on the market today, in minutes.
 
 **Requirements**
 --------
-In order to utilize the Appmobi platform, you must have a registered Appmobi platform.  [Register for FREE](https://cloud.appmobi.com/) for our public cloud to get up and running fast.  We also offer a PrivateStack install where you can isolate the Appmobi backend on your own Amazon Web Service account; [Register for a PrivateStack Demo](https://licensing.appmobi.com/demo/signup/).  Additional AWS charges may apply depending on the configuration of your PrivateStack platform.
+In order to utilize the Appmobi platform, you must have a registered Appmobi platform.  
+<!---
+[Register for FREE](https://cloud.appmobi.com/) for our public cloud to get up and running fast.  We also offer a PrivateStack install where you can isolate the Appmobi backend on your own Amazon Web Service account; [Register for a PrivateStack Demo](https://licensing.appmobi.com/demo/signup/).  Additional AWS charges may apply depending on the configuration of your PrivateStack platform. --->
 
 **Features**
 --------
@@ -41,6 +43,7 @@ secureDataStore allows you to save your Application Data securely on device and 
 
 secure analytics delivers real-time intelligence from a fully scalable, secure private-stack, and is tested for optimal enterprise us, helping developers know what they’re protecting while they’re protecting it.
 
+<!---
 **Development Guide**
 ---------------------
 
@@ -62,6 +65,7 @@ New to mobile development and looking for a place to start? Our Quickstart guide
 **Quickstart Guide for OAuth Integration**
  - [Google OAuth Integration](https://docs.appmobi.com/guides/quickstart-oauth/index.html#google-oauth-integration) 
  - [Facebook OAuth Integration](https://docs.appmobi.com/guides/quickstart-oauth/index.html#facebook-oauth-integration)
+--->
 
 **Plugin Variables**
 ----------
@@ -69,7 +73,7 @@ Our plugin makes use of Cordova plugin variables to communicate with the Appmobi
 
 - **APP_NAME**: The name of the application created on your Appmobi Management Portal.
 - **PROJECT_ID**: The unique application indentifier of your Appmobi application.
-- **CONFIG_URL**: The HTTP endpoint of your Appmobi Backend (ie. https://cloud.appmobi.com/ for our public cloud, https://127.0.0.1 for an Appmobi PrivateStack )
+- **CONFIG_URL**: The HTTP endpoint of your Appmobi Backend (ie. https://appmobi.com/ for our public cloud, https://127.0.0.1 for an Appmobi PrivateStack )
 
 When the user creates a new app based on the sample in Intel XDK, The Appmobi plugin will be added using the default parameter values. The user needs to change default placeholder values with the above 3 parameters for initialization of Plugin.
 
@@ -78,12 +82,11 @@ Note: The above parameters should be correct as provided from private stack App.
 **References**
 ----------
  -  [Appmobi Official Website](https://www.appmobi.com/)
- -  [Appmobi Documentation](https://docs.appmobi.com/) 
+<!--- -  [Appmobi Documentation](https://docs.appmobi.com/)  --->
  -  [Apache Cordova](https://cordova.apache.org/) 
 
 **Compatibility**
 ----------
 Platforms : 
 - Android
-- iOS (For Intel XDK, we have updated "intelxdk.config.additions" file which creates iOS build with CLI 5.4.1 version and cordova-ios v4.0.1 which enables this plugin to be utilised
-supporting Appmobi Secured Plugin for iOS build using XDK - https://appmobi.freshdesk.com/support/discussions/topics/9000007638)
+- iOS  
